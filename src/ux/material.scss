@@ -1,0 +1,58 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: helvetica;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+button{
+  padding: 4px 7px;
+}
+
+
+input{
+  background: white;
+  padding: 4px;
+  outline: var(--theme);
+  border-radius: 4px;
+  border: 1px solid var(--lines);
+}
+
+// Links
+
+a{
+  padding: 7px;
+  width: inherit;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 3px;
+  color: inherit;
+
+  &:hover{
+    font-weight: bold;
+  }
+}
+
+.router-link-exact-active{
+  font-weight: bold;
+  color: white;
+  background: var(--background-third);
+  border-radius: 4px;
+}
+
+
+
+
+[frame]{
+  border-radius: 17px;
+  padding: 17px;
+  box-shadow: 4px 4px 9px 4px rgba(0, 0, 0, 0.1);
+}
