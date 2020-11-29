@@ -1,5 +1,5 @@
 // Custom Configuration
 module.exports = {
 
-publicPath:''
+publicPath:'income-statement/'
 }
